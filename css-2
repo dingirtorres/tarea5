@@ -1,0 +1,56 @@
+a:link{color: rgb(0, 0, 0);}
+a:visited{color: grey;}
+.titulo{margin:5px;padding: 5px;background-color:yellow;color:red}
+/*.lista-nav{
+    background-color: magenta;
+    height: 100px;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: nowrap;   
+    justify-content: space-around;*/
+    /*gap: 10px;*/
+    /*list-style: none;
+    padding: 0;
+       }*/
+       /*.lista-nav {
+        background-color: magenta;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center; 
+        list-style: none;
+        padding: 0;
+        height: auto; 
+    }*/
+    /*.lista-nav {
+        background-color: magenta;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        overflow-y: auto; 
+    }*/
+
+    .lista-nav {
+        
+        background-color: rgb(182, 163, 123);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  /* Permite que los elementos pasen a la siguiente línea si no caben */
+        justify-content: space-around;  
+        align-items: center;  /* Centra verticalmente los items */
+        list-style: none;
+        padding: 20px;  /* Añadir un poco de padding para que los items no toquen los bordes */
+        margin: 0;
+        box-sizing: border-box;  /* Asegura que padding y bordes se incluyan en el ancho/alto */
+    }
+
+
+.formulario{background-color: grey;margin:30px;padding: 30px; background-image: url("../profesor.gif");}
+/*body{background-color: green;}*/
+.footer{display: flex; color:orange; background-color: black;}
