@@ -1,0 +1,18 @@
+.titulo{margin:5px;padding: 5px;background-color:yellow;color:red}
+.lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: nowrap;   
+    justify-content: center;  
+    gap: 10px;
+
+
+   
+   
+
+}
+.formulario{background-color: grey;margin:30px;padding: 30px; background-image: url("../profesor.gif");}
+/*body{background-color: green;}*/
+.footer{display: flex; color:orange; background-color: black;}
